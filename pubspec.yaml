@@ -18,3 +18,4 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+version: 1.0.0+2
