@@ -1,7 +1,5 @@
 name: shine28
-description: Shine 28 Flutter App
-publish_to: "none"
-
+description: Shine28 Flutter App
 version: 1.0.0+1
 
 environment:
@@ -9,12 +7,6 @@ environment:
 
 dependencies:
   flutter:
-    sdk: flutter
-
-  cupertino_icons: ^1.0.6
-
-dev_dependencies:
-  flutter_test:
     sdk: flutter
 
 flutter:
