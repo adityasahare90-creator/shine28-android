@@ -2,22 +2,24 @@ name: Android APK Build
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: subosito/flutter-action@v2
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.0'
-          channel: 'stable'
+          flutter-version: "3.22.0"
+          channel: stable
 
-      - name: Flutter doctor
-        run: flutter doctor
+      - name: Flutter clean
+        run: flutter clean
 
       - name: Get dependencies
         run: flutter pub get
