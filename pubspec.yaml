@@ -1,13 +1,23 @@
-name: shine28
-description: Shine 28 Flutter App
+name: shine28_flutter
+description: A clean Flutter app for Shine28 with counter demo.
 publish_to: "none"
 
+version: 1.0.0+1
+
 environment:
-  sdk: ">=3.0.0 <4.0.0"
+  sdk: ">=3.3.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
