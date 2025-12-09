@@ -1,6 +1,6 @@
 name: shine28
-description: Shine28 Flutter App
-version: 1.0.0+1
+description: Shine 28 Flutter App
+publish_to: "none"
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
